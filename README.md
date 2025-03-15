@@ -6,8 +6,7 @@
 
 A web-based application for tracking stock investments in real-time using financial market data APIs.
 
-![Portfolio Tracker Screenshot](screenshot.png)
-
+![Image](https://github.com/user-attachments/assets/b51b1b16-5463-43d6-b7b3-caee5918af76)
 ## Features ✨
 
 - **Real-time Stock Data**: Get current prices and daily changes
