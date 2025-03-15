@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Portfolio Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Portfolio Tracker</h1>
+        
+        <div class="portfolio-form">
+            <div class="form-group">
+                <input type="text" id="stockSymbol" placeholder="Stock Symbol (e.g., AAPL)">
+                <input type="number" id="stockShares" placeholder="Shares" min="1">
+                <button onclick="addStock()"><i class="fas fa-plus"></i> Add Stock</button>
+            </div>
+        </div>
+
+        <div class="portfolio-list">
+            <div id="portfolioHeader" class="stock-item" style="font-weight: bold;">
+                <div>Stock</div>
+                <div class="stock-info">
+                    <span>Shares</span>
+                    <span>Price</span>
+                    <span>Daily Change</span>
+                    <span>Value</span>
+                    <span>Actions</span>
+                </div>
+            </div>
+            <div id="portfolioItems"></div>
+            <div id="totalValue" class="total-value"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
