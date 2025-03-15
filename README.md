@@ -2,7 +2,6 @@
 # Stock Portfolio Tracker 📈
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/BOYACHIRAPPAGARISAIHARIKA/stock-portfolio-tracker)
 
 A web-based application for tracking stock investments in real-time using financial market data APIs.
 
